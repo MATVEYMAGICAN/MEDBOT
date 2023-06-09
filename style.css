@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@700&display=swap');
+
+#nav {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 10px;
+    z-index:10;
+    background-color: rgb(255, 255, 255);
+    border:2px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+video {
+    width: 500px;
+    margin-top: 100px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 7px 7px rgb(33, 242, 231);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    height:70px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.ico {
+    border-radius: 10px;
+}
+
+li a {
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.glavnaya {
+    height: 100vh;
+    margin-top: 100px;
+    background-image: url(img/robot-delivery.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.glavnaya h2, h3{
+    font-family:  'Saira Condensed', sans-serif;
+    text-align: center;
+}
+
+.gipoteza {
+    height: 100vh;
+}
+
+.intervew {
+    width: 98vw;
+}
+
+.intervew video {
+    margin-left: 80px;
+}
+
+.intervew p {
+    margin-top: 100px;
+    font-size: 21px;
+    margin-left: 650px;
+    margin-top: -510px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.intervew img {
+    margin-left: 850px;
+    bottom: -755px;
+    position: relative;
+}
+
+.medbot {
+    height: 100vh;
+}
+
+.idea {
+    height: 100vh;
+}
+
+.gipoteza img{
+    position: absolute;
+    margin-top:-26px;
+    height:380px;
+    width:600px;
+    right:95px;
+}
+
+.idea h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.information{
+    height: 100vh;
+    width:98vw;
+}
+
+.idea-p{
+    font-size: 25px;
+    width:80vw;
+    text-align: center;
+    margin-left:9vw;
+}
+
+li{
+    color: rgb(50, 50, 50);
+}
+
+#bot-name{
+    font-family: 'Bruno Ace SC', cursive;;
+}
+
+li img{
+    width:45px;
+}
