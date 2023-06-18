@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+#nav {
+    list-style: none;
+    margin: 0;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 101vw;
+    height: 70px;
+    position: fixed;
+    top: 10px;
+    z-index:10;
+    background-color: rgb(255, 255, 255);
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+    left:1px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+video {
+    width: 150px;
+    border-radius: 10%;
+    top:3000px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    height:70px;
+    color: black;
+}
+
+.ico {
+    border-radius: 10px;
+}
+
+li a {
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(../img/robot-delivery.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main h2, .main h3{
+    font-family:  'Saira Condensed', sans-serif;
+    text-align: center;
+    color:white;
+}
+
+.main h2{
+    font-size:130px;
+}
+
+.main h3{
+    font-size: 30px;
+}
+
+.for_whom {
+    height: 100vh;
+}
+
+.intervew {
+    width: 98vw;
+    padding-top:100px;
+}
+
+.intervew video {
+    margin-left: 80px;
+}
+
+.intervew p {
+    font-size: 21px;
+    margin-left: 650px;
+    margin-top: -710px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.medbot {
+    height: 100vh;
+}
+
+.idea {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.for_whom img{
+    position: absolute;
+    margin-top:-26px;
+    height:380px;
+    width:600px;
+    right:95px;
+}
+
+.idea h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.team{
+    height: 150vh;
+    width: 98vw;
+
+}
+
+.idea-p{
+    font-size: 25px;
+    width:80vw;
+    text-align: center;
+    margin-left:9vw;
+}
+
+li{
+    color: rgb(50, 50, 50);
+}
+
+#bot-name{
+    font-family: 'Bruno Ace SC', cursive;;
+}
+
+li img{
+    width:45px;
+}
+
+.main-filter{
+    width: 110%;
+    height: 100%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+}
+
+.title{
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+#one, #three, #five, #seven, #eight::first-letter{
+    color:rgba(113, 17, 17, 0.805);
+}
+
+.title span{
+    color: rgb(195, 42, 42);
+}
+
+.advantages{
+    height: 100vh;
+    width: 100vw;
+}
+
+.equipment{
+    height: 100vh;
+    width: 100vw;
+}
+
+.team img{
+    width:200px;
+    border-radius:25px;
+}
+
+.person{
+    width:240px;
+    border:1px solid black;
+    padding:20px;
+    background-color: rgba(112, 112, 112, 0.604);
+    border-radius:25px;
+}
+
+.team-flex{
+    display: flex;
+    justify-content: space-around;
+    width:100vw;
+    margin-top: 100px;
+}
+
+.team-flex h2{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.team-flex p{
+    font-size:15px ;
+}
+.team-flex_two{
+    display: flex;
+}
+
+.team-flex_two div{
+    border:1px solid black;
+    width:1px;
+    height:100px;
+}
+
+.team-line{
+    height: 1px;
+    width:80.3vw;
+    border: 1px solid black;
+    margin-left: 149.5px;
+}
+
+.team-line_two{
+    width:1px;
+    height: 100px;
+    margin-left: 762px;
+    border: 1px solid black;
+}
+
+.person h2{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.person p{
+    font-size:15px ;
+}
+
+.person_ .person{
+    margin-left:645px;
+}
+
+.whitespace{
+    height:1px;
+    width:100px;
+}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.5); /* Увеличиваем масштаб */
+   }
+
+.team img {
+    -webkit-filter: brightness(20%);
+}
+
+.team img:hover {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.team-flex_two div:nth-child(1){
+    margin-left:149.5px;
+}
+
+.team-flex_two div:nth-child(2){
+    margin-left:310px;
+}
+
+.team-flex_two div:nth-child(3){
+    margin-left:300px;
+}
+
+.team-flex_two div:nth-child(4){
+    margin-left:310.5px;
+}
+
+.team-flex_two div:nth-child(5){
+    margin-left:305px;
+}
+
+.for_whom img{
+    height: auto;
+    margin-right:800px;
+    margin-top: 100px;
+}
+
+.robot{
+    background-image: url(../img/Без\ имени.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:600px;
+    height:1000px;
+    top:100px;
+    padding-left: 147.5px;
+    padding-top:240px;
+}
+
+.scale_two {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale_two:hover {
+    transform: scale(4); /* Увеличиваем масштаб */
+   }
+
+   .scale_three {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale_three:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }

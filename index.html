@@ -5,45 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/logo_cite.ico" class="ico">
     <title>MEDBOT</title>
 </head>
 
 <body>
     <ul id="nav">
-        <a href="#1"><li>Главная</li></a>
-        <a href="#2"><li>Для кого</li></a>
-        <a href="#3"><li>Преимущества</li></a>
-        <a href="#4"><li><img src="img/logo.svg" alt=""></li></a>
-        <a href="#5"><li>Идея</li></a>
-        <a href="#6"><li>Комплектация</li></a>
-        <a href="#7"><li>Команда</li></a>
+        <a href="#1">
+            <li id="one">Главная</li>
+        </a>
+        <a href="#2" id="two">
+            <li>Для кого</li>
+        </a>
+        <a href="#3">
+            <li id="three">Преимущества</li>
+        </a>
+        <a href="#4" id="four">
+            <li><img src="img/logo.svg" alt=""></li>
+        </a>
+        <a href="#5">
+            <li id="five">Идея</li>
+        </a>
+        <a href="#6" id="six">
+            <li>Комплектация</li>
+        </a>
+        <a href="#7">
+            <li id="seven">Команда</li>
+        </a>
     </ul>
-    <div class="glavnaya">
-        <h2><b>MEDBOT</b></h2>
-        <h3>Делаем жизнь больниц проще</h3>
+    <div class="main" id="1">
+        <div class="title">
+            <h2><b><span>MED</span>BOT</b></h2>
+            <h3>Призвание врачей спасать жизни</h3>
+            <h3>наша задача им помочь</h3>
+        </div>
+        <div class="main-filter"></div>
     </div>
 
-    <div class="gipoteza">
+    <div class="for_whom" id="2">
         <div class="intervew">
-            <video src="img/video_2023-05-11_15-33-32.mp4" controls></video>
-            <p>
-                Мы можем сказать, что даже врач, с 11 летним стажем говорит,
-                что доставка продуктов, лекарств, еды, воды и т.д занимает очень много времени и персонала,
-                что и доказывает нашу теорию, что эта проблема действительно актуальна.
-                Поэтому мы и решили, что врачи заслуживают того, чтобы у них было больше свободного времени
-                и придумали MEDBOT.
+            <div class="robot"><video src="img/video_2023-05-11_15-33-32.mp4" controls class="scale_two"></video></div>
+            <p class="scale_three">
+                "Да, довольно много времени уходит на доставку, довольно большое количество персонала включено в этот
+                объём работы, это и санитарский персонал, это и сестренский персонал, которые и осуществляют
+                доставку..." - говорит врач с 11-летним стажем, являющийся заведующим стационара. Поэтому, поиск решения на
+                оптимизацию работы медперсонала является очень актуальным на сегодняшний день
             </p>
-            <img src="img/idea.png" alt="" class="image">
         </div>
     </div>
+    <div class="advantages" id="3">
 
-    <div class="medbot">
     </div>
-    <div class="idea">
+
+    <div class="medbot" id="4">
+    </div>
+    <div class="idea" id="5">
         <h2>Как мы придумали MEDBOT ?</h2>
-        <p class="idea-p">Поначалу, мы очень долго не могли определиться, какой же проект выбрать. Кто то предлагал умную одежду, кто
+        <p class="idea-p">Поначалу, мы очень долго не могли определиться, какой же проект выбрать. Кто то предлагал
+            умную одежду, кто
             то игру, кто то карманный прибор, делающий снимок поврежденной конечности и т.д. И вдруг, во время нашей
             беседы, один из команды рассказал, как он сделал робота из лего у себя дома, робота который умел доставлять,
             и тогда у меня в голове возникла идея сделать дрона доставщика по всему городу.Но мы столкнулись с двумя
@@ -53,14 +74,62 @@
             робота, доставляющего предметы от их начала, до их употребления, ездющего робота. А так же сделать в
             дальнейшем дрона, который будет летать между больницами, и к примеру собирать анализы в одной определенной
             точке. Мы решили одну из проблем практически всех больниц!!!</p>
-        <h2>Голосуйте за MEDBOT - сделаем работу врачей проще!</h2>
+        <h2>Голосуйте за MEDBOT - поможем врачам!</h2>
     </div>
-    <div class="information">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+    <div class="equipment" id="6">
+
+    </div>
+
+    <div class="team">
+        <div class="whitespace" id="7"></div>
+        <div class="team-flex">
+            <div class="person"><img src="img/seminin.JPG" alt="" class="scale">
+                <h2>Семынин Дмитрий</h2>
+                <p>-участник команды</p>
+                <p>-принимал участие в сборке робота</p>
+                <p>-принимал участие в написании кода</p>
+            </div>
+            <div class="person"><img src="img/pismenov.JPG" alt="" class="scale">
+                <h2>Письменов Марк</h2>
+                <p>-участник команды</p>
+                <p>-принимал участие в снятии интервью</p>
+                <p>-принимал участие в сборке робота</p>
+            </div>
+            <div class="person"><img src="img/skovordin.JPG" alt="" class="scale">
+                <h2>Сковордин Матвей</h2>
+                <p>- капитан команды</p>
+                <p>- написал сайт</p>
+                <p>- принимал участие в снятии интервью</p>
+                <p>- вел презентацию проекта на этапе Proдумай</p>
+            </div>
+            <div class="person"><img src="img/chehlov.JPG" alt="" class="scale">
+                <h2>Чехлов Дмитрий</h2>
+                <p>-участник команды</p>
+                <p>-принимал участие в сборке робота</p>
+                <p>-принимал участие в написании кода</p>
+            </div>
+            <div class="person"><img src="img/grinberg.jpg" alt="" class="scale">
+                <h2>Гринберг Михаил</h2>
+                <p>-участник команды</p>
+                <p>-принимал участие в сборке робота</p>
+                <p>-принимал участие в написании кода</p>
+            </div>
+        </div>
+        <div class="team-flex_two">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="team-line"></div>
+        <div class="team-line_two"></div>
+        <div class="person_">
+            <div class="person"><img src="img/ksenia alekseevna.jpg" alt="" class="scale">
+                <h2>Кириленко Ксения Алексеевна</h2>
+                <p>-наставник команды</p>
+            </div>
+        </div>
     </div>
 </body>
 
